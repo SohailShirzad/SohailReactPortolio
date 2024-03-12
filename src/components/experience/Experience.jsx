@@ -7,7 +7,6 @@ export default function Experience(props) {
         </li>
     )
     return (
-
         <ul className="list-group">
             <li className="list-group-item mt-5">
                 <p className="fs-4">{props.title}<span className="aqua">{props.company}</span></p>
@@ -16,7 +15,6 @@ export default function Experience(props) {
                     {listTools}
                 </ul>
             </li>
-
         </ul>
 
 

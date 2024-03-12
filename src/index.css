@@ -12,3 +12,22 @@ body{
 }
 
 p,a,li,h1,h2,h3,h4,h5,h6{color: var(--gray);}
+
+.margin-top{
+  margin-top: 7rem;
+}
+
+.card a:hover{
+  background-color: rgba(94, 234, 212, 0.2);
+}
+.card-img-top{
+  height: 150px;
+}
+
+.contact-email-button{
+  color: rgb(94 234 212);
+  border: 1px solid rgb(94 234 212);
+  border-radius: 1rem;
+  padding: 0.55rem;
+  text-decoration: none;
+  }

@@ -1,7 +1,11 @@
 import './app.css'
+import aalWebsitePhoto from '../assets/images/aal.png'
+import stroikaPhoto from '../assets/images/stroika.png'
+import serenaBank from '../assets/images/sb.png'
 import Header from './header/Header'
 import MainSection from './mainSection/MainSection'
 import Experience from './experience/Experience'
+import Projects from './projects/project'
 
 export default function App(){
     const tools = ['HTML','CSS','WordPress'];
@@ -34,7 +38,28 @@ export default function App(){
         />
         </div>
         </div>
-        </div>        
+        </div> 
+        <div className="container-fluid margin-top" id="Projects">
+            <h2 className="text-center"><span className="aqua">04.</span> Projects</h2>
+            <div className="row justify-content-center gap-3 mt-5">
+       
+                <Projects
+                    img = {aalWebsitePhoto}
+                    title="AAL Website"
+                    description="Developed and designed an interactive web application that is an all-inclusive platform used for various purposes. It has many useful functions. The referral page is one of the most useful features as it allows other agencies and local government to refer their clients directly."
+                />
+                  <Projects
+                    img = {stroikaPhoto}
+                    title="Stroika website"
+                    description="Developed, styled, and deployed an interactive, accessible, and responsive web application for Stroika building services primarily using HTML, CSS, JavaScript, Node.js, Visual Studio code, Git, and GitHub."
+                />
+                  <Projects
+                    img = {serenaBank}
+                    title="Bank application"
+                    description="For my final year project, I built a cross-platform bank web application to allow users to manage all their online transactions online. For example; create an account, secure login using hash algorithms and Microsoft identity, make a payment, transfer money and many more."
+                />
+            </div>
+        </div>     
         </>
     )
 }
