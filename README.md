@@ -1,8 +1,23 @@
-# React + Vite
+# A Portfolio website using React
+This project is created using react to demonstrate all of my projects and experiences using a portfolio website created using React.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Technologies
+React.js, Node.js, HTML, CSS, and Bootstrap
 
-Currently, two official plugins are available:
+## Installation
+1.Clone or download the repository to your own local machine
+2.You will need node.js and git install globally on your device. 
+3.In your terminal run npm install
+4.In the project diectory, run npm start or npm run dev
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Usage Instruction
+
+Open the project folder and Navigate to /src/components/.
+You will find all the components used and you can edit your information accordingly.
+
+## Link to GitHub pages
+
+https://github.com/SohailShirzad/Team-Profile-Generator
+
+
+
