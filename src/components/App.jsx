@@ -6,6 +6,8 @@ import Header from './header/Header'
 import MainSection from './mainSection/MainSection'
 import Experience from './experience/Experience'
 import Projects from './projects/project'
+import Contact from './contact/contact'
+import Footer from './footer/Footer'
 
 export default function App(){
     const tools = ['HTML','CSS','WordPress'];
@@ -59,7 +61,9 @@ export default function App(){
                     description="For my final year project, I built a cross-platform bank web application to allow users to manage all their online transactions online. For example; create an account, secure login using hash algorithms and Microsoft identity, make a payment, transfer money and many more."
                 />
             </div>
-        </div>     
+        </div> 
+        <Contact /> 
+        <Footer />   
         </>
     )
 }
