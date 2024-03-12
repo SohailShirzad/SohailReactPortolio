@@ -2,7 +2,7 @@ import './experience.css'
 export default function Experience(props) {
     const tools = props.toolsUsed;
     const listTools = tools.map((tool) =>
-        <li key={tools} className="list-group-item">
+        <li key={tools} className="list-group-item list-item-background">
             {tool}
         </li>
     )

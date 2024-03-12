@@ -1,10 +1,11 @@
-import "./header.css"
+import myLogo from '../../assets/images/logo.png'
+import myCV from '../../assets/sohailse24.pdf'
 export default function Header() {
   return (
     <>
       <nav className="navbar navbar-expand-lg">
         <div className="container-fluid ">
-          <a className="navbar-brand " href="#">Navbar</a>
+          <a className="navbar-brand " href="#"><img className='logo' src={myLogo} alt="Sohail Logo" /></a>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
@@ -23,7 +24,7 @@ export default function Header() {
                 <a className="nav-link" href="#Contact"><span className="aqua">04.</span> Contact</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="./public/Sohail Shirzad 2023 Sep.pdf" target="_blank"><span className="aqua">05.</span> View Full CV</a>
+                <a className="nav-link" href={myCV} target="_blank"><span className="aqua">05.</span> View Full CV</a>
               </li>
             </ul>
 

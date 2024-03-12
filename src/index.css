@@ -11,7 +11,7 @@ body{
   background-color: var(--dark) !important;
 }
 
-p,a,li,h1,h2,h3,h4,h5,h6{color: var(--gray);}
+p,a,li,h1,h2,h3,h4,h5,h6{color: var(--gray) !important;}
 
 .margin-top{
   margin-top: 7rem;
@@ -31,3 +31,7 @@ p,a,li,h1,h2,h3,h4,h5,h6{color: var(--gray);}
   padding: 0.55rem;
   text-decoration: none;
   }
+  .logo{
+    max-width: 70px;
+    max-height: 70px;
+}

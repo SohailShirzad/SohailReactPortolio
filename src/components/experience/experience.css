@@ -2,4 +2,16 @@
     border: none !important;
     background-color: inherit !important;
     color: aqua !important;
+    
+
+}
+
+.list-item-background{
+    background-color: rgba(94, 234, 212, 0.2) !important;
+    border-radius: 1rem !important;
+    padding: 0.55rem !important;
+
+}
+.list-group-horizontal{
+    gap: 2rem;
 }
