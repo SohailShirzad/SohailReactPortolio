@@ -1,0 +1,5 @@
+.list-group-item{
+    border: none !important;
+    background-color: inherit !important;
+    color: aqua;
+}
