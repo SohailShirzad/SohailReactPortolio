@@ -17,7 +17,7 @@ You will find all the components used and you can edit your information accordin
 
 ## Link to GitHub pages
 
-https://github.com/SohailShirzad/Team-Profile-Generator
+https://sohailshirzad.github.io/SohailReactPortolio/
 
 
 
