@@ -1,5 +1,3 @@
-import './contact.css'
-
 export default function Contact() {
     return (
         <div class="container text-center margin-top" id="Contact">
