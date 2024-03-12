@@ -1,4 +1,4 @@
-
+import myImage from '../../assets/images/passportPhoto.jpg';
 export default function MainSection(){
     return(
         <div className="container text-center">
@@ -18,7 +18,7 @@ export default function MainSection(){
           </div>
 
           <div className="col-lg-3 col-md-3 col-sm-7">
-            <img src="./images/passportPhoto.jpg" alt="Sohail Shirzad Image" width="70%" />
+            <img src={myImage} alt="Sohail Shirzad Image" width="70%" />
           </div>
       </div>
     </div>
